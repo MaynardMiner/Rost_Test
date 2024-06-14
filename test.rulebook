@@ -3008,7 +3008,7 @@
           "meta": {
             "ttsDamageStat": "W",
             "ttsDisplayGroupAssets": "true",
-            "ttsStatDisplay": "S,T,A,I,Wil,Int,Fel",
+            "ttsStatDisplay": "W,S,T,A,I,Wil,Int,Fel",
             "ttsAssetbundleURL": null,
             "ttsMeshURL": null,
             "ttsDiffuseURL": null,
@@ -3059,8 +3059,8 @@
               "statType": "term",
               "value": null,
               "visibility": "active"
-            },
-            "S": {
+            },            
+            "W": {
               "format": "{v}+",
               "group": "Stats",
               "statOrder": 1,
@@ -3068,17 +3068,25 @@
               "value": null,
               "visibility": "normal"
             },
-            "T": {
-              "format": "{v}″",
+            "S": {
+              "format": "{v}+",
               "group": "Stats",
               "statOrder": 2,
               "statType": "numeric",
               "value": null,
               "visibility": "normal"
             },
-            "A": {
+            "T": {
+              "format": "{v}″",
               "group": "Stats",
               "statOrder": 3,
+              "statType": "numeric",
+              "value": null,
+              "visibility": "normal"
+            },
+            "A": {
+              "group": "Stats",
+              "statOrder": 4,
               "statType": "numeric",
               "value": null,
               "visibility": "normal"
@@ -3094,28 +3102,28 @@
             "I": {
               "format": "{v}+",
               "group": "Stats",
-              "statOrder": 4,
+              "statOrder": 5,
               "statType": "numeric",
               "value": null,
               "visibility": "normal"
             },
             "Wil": {
               "group": "Stats",
-              "statOrder": 5,
+              "statOrder": 6,
               "statType": "numeric",
               "value": null,
               "visibility": "normal"
             },
             "Int": {
               "group": "Stats",
-              "statOrder": 6,
+              "statOrder": 7,
               "statType": "numeric",
               "value": null,
               "visibility": "normal"
             },
             "Fel": {
                 "group": "Stats",
-                "statOrder": 7,
+                "statOrder": 8,
                 "statType": "numeric",
                 "value": null,
                 "visibility": "normal"
@@ -3490,7 +3498,7 @@
           },
           "meta": {
             "ttsDamageStat": "W",
-            "ttsStatDisplay": "M,T,Sv,W,Ld,OC",
+            "ttsStatDisplay": "W,S,T,A,I,Wil,Int,Fel",
             "ttsCoherency": "2,5,5",
             "ttsAssetbundleURL": null,
             "ttsAssetbundleSecondaryURL": null,
